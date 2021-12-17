@@ -8,12 +8,11 @@
 </head>
 <body>
     <?php
-      $x = 10;
-      $y = 20;
-      $z = $x + $y;
+      $x = "Lorem ipsum";
       ?>
     
-    <h1>Hello World <?php echo $z; ?></h1>
+    <h1><?php echo  $x; ?></h1>
+    <p><?php echo "la lunghezza della parola è:".strlen($x)?></p>
     
 </body>
 </html>
